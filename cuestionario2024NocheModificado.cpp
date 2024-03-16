@@ -529,11 +529,13 @@ main()
 						}								
 				break;
 				case 4: cout<< "CODIFICAR EL SOFTWARE."<<endl<<endl;
-						cout<< "1-¿cual es el valor de 8942 en binario?"<<endl;
-						cout<< "a)10001011101110"<<endl;
-						cout<< "b)11001011101011"<<endl;
-						cout<< "c)10101011101110"<<endl;
-						cout<< "d)11010101010111"<<endl;
+						cout<<//Robert Lemus. Preguntas del 31 al 40
+						cout<< "CODIFICAR EL SOFTWARE/."<<endl<<endl;//Cuestionario Robert Lemus
+						cout<< "31-¿Qué tipo de estructura de datos se utiliza comúnmente para representar una colección de elementos ordenados y de tamaño variable??"<<endl;
+						cout<< "a)Cola de prioridad"<<endl;
+						cout<< "b)Pila"<<endl;
+						cout<< "c)Lista enlazada"<<endl;
+						cout<< "d)Tabla hash"<<endl;
 						cin>>respuesta;
 						
 						if(respuesta=='a')
@@ -546,28 +548,11 @@ main()
 					    		cout<<"la respuesta es incorrecta"<<endl;
 					    		contan=contan-1;
 							}
-						cout<< "2-¿cual es el valor del binario 111111?"<<endl;
-						cout<< "a)62"<<endl;
-						cout<< "b)63"<<endl;
-						cout<< "c)64"<<endl;
-						cout<< "d)61"<<endl;
-						cin>>respuesta;
-						
-						if(respuesta=='b')
-							{
-						  		cout<<"la respuesta es correcta"<<endl;
-						  		contap=contap+1;
-					    	}
-					    else 
-					    	{
-					    		cout<<"la respuesta es incorrecta"<<endl;
-					    		contan=contan-1;
-							}
-						cout<< "3-¿cual es el valor en binario de 628?"<<endl;
-						cout<< "a)1001011010"<<endl;
-						cout<< "b)1111111110"<<endl;
-						cout<< "c)1001110100"<<endl;
-						cout<< "d)1111100000"<<endl;
+						cout<< "32-¿Cuál de las siguientes opciones describe mejor la función de una variable en la programación?"<<endl;
+						cout<< "a)Define una estructura de datos."<<endl;
+						cout<< "b)Agrupa un conjunto de instrucciones para realizar una tarea específica"<<endl;
+						cout<< "c)Almacena un valor que puede cambiar durante la ejecución del programa"<<endl;
+						cout<< "d)Optimiza el rendimiento del código"<<endl;
 						cin>>respuesta;
 						
 						if(respuesta=='c')
@@ -580,11 +565,45 @@ main()
 					    		cout<<"la respuesta es incorrecta"<<endl;
 					    		contan=contan-1;
 							}
-						cout<< "4-¿cual es el valor en decimal de 11000000111001?"<<endl;
-						cout<< "a)123123"<<endl;
-						cout<< "b)12345"<<endl;
-						cout<< "c)12125"<<endl;
-						cout<< "d)12344"<<endl;
+						cout<< "33-¿Qué lenguaje de programación es ampliamente utilizado en el desarrollo de aplicaciones de servidor y servicios web?"<<endl;
+						cout<< "a)C++"<<endl;
+						cout<< "b)Java"<<endl;
+						cout<< "c)Python"<<endl;
+						cout<< "d)HTML"<<endl;
+						cin>>respuesta;
+						
+						if(respuesta=='c')
+							{
+						  		cout<<"la respuesta es correcta"<<endl;
+						  		contap=contap+1;
+					    	}
+					    else 
+					    	{
+					    		cout<<"la respuesta es incorrecta"<<endl;
+					    		contan=contan-1;
+							}
+						cout<< "34-¿Qué tipo de error se produce cuando un programa intenta acceder a una ubicación de memoria que ya ha sido liberada"<<endl;
+						cout<< "a)Error de lógica"<<endl;
+						cout<< "b)Error de sintaxis"<<endl;
+						cout<< "c)Error de tiempo de ejecución"<<endl;
+						cout<< "d)Error de compilación"<<endl;
+						cin>>respuesta;
+						
+						if(respuesta=='c')
+							{
+						  		cout<<"la respuesta es correcta"<<endl;
+						  		contap=contap+1;
+					    	}
+					    else 
+					    	{
+					    		cout<<"la respuesta es incorrecta"<<endl;
+					    		contan=contan-1;
+							}
+						cout<< "35-¿Cuál de las siguientes opciones describe mejor la función de un módulo en la programación modular?"<<endl;
+						cout<< "a)Define una estructura de datos."<<endl;
+						cout<< "b)Agrupa un conjunto de instrucciones para realizar una tarea específica"<<endl;
+						cout<< "c)Encapsula datos y comportamientos relacionados"<<endl;
+						cout<< "d)Optimiza el rendimiento del código"<<endl;
 						cin>>respuesta;
 						
 						if(respuesta=='b')
@@ -597,62 +616,11 @@ main()
 					    		cout<<"la respuesta es incorrecta"<<endl;
 					    		contan=contan-1;
 							}
-						cout<< "5-¿cual es el valor en binario de 33?"<<endl;
-						cout<< "a)100001"<<endl;
-						cout<< "b)101001"<<endl;
-						cout<< "c)100100"<<endl;
-						cout<< "d)110000"<<endl;
-						cin>>respuesta;
-						
-						if(respuesta=='a')
-							{
-						  		cout<<"la respuesta es correcta"<<endl;
-						  		contap=contap+1;
-					    	}
-					    else 
-					    	{
-					    		cout<<"la respuesta es incorrecta"<<endl;
-					    		contan=contan-1;
-							}
-						cout<< "6-¿cual es el valor en binario de 42?"<<endl;
-						cout<< "a)111010"<<endl;
-						cout<< "b)101011"<<endl;
-						cout<< "c)110011"<<endl;
-						cout<< "d)101010"<<endl;
-						cin>>respuesta;
-						
-						if(respuesta=='d')
-							{
-						  		cout<<"la respuesta es correcta"<<endl;
-						  		contap=contap+1;
-					    	}
-					    else 
-					    	{
-					    		cout<<"la respuesta es incorrecta"<<endl;
-					    		contan=contan-1;
-							}
-						cout<< "7-¿cual es el valor decimal de 1000010000?"<<endl;
-						cout<< "a)529"<<endl;
-						cout<< "b)526"<<endl;
-						cout<< "c)527"<<endl;
-						cout<< "d)528"<<endl;
-						cin>>respuesta;
-						
-						if(respuesta=='d')
-							{
-						  		cout<<"la respuesta es correcta"<<endl;
-						  		contap=contap+1;
-					    	}
-					    else 
-					    	{
-					    		cout<<"la respuesta es incorrecta"<<endl;
-					    		contan=contan-1;
-							}
-						cout<< "8-¿cual es el valor en decimal de 110011010100?"<<endl;
-						cout<< "a)4823"<<endl;
-						cout<< "b)3284"<<endl;
-						cout<< "c)8234"<<endl;
-						cout<< "d)2348"<<endl;
+						cout<< "36-¿Qué lenguaje de programación se utiliza comúnmente en el desarrollo de aplicaciones de análisis de datos y visualización?"<<endl;
+						cout<< "a)Java"<<endl;
+						cout<< "b)MATLAB"<<endl;
+						cout<< "c)C#"<<endl;
+						cout<< "d)Swift"<<endl;
 						cin>>respuesta;
 						
 						if(respuesta=='b')
@@ -665,14 +633,48 @@ main()
 					    		cout<<"la respuesta es incorrecta"<<endl;
 					    		contan=contan-1;
 							}
-						cout<< "9-¿cual es el valor en binario de 62?"<<endl;
-						cout<< "a)111110"<<endl;
-						cout<< "b)101111"<<endl;
-						cout<< "c)110111"<<endl;
-						cout<< "d)111011"<<endl;
+						cout<< "37-¿Qué tipo de estructura de datos se utiliza comúnmente para representar una colección de elementos no ordenados y con acceso rápido a los mismos?"<<endl;
+						cout<< "a)Árbol binario"<<endl;
+						cout<< "b)Tabla hash"<<endl;
+						cout<< "c)Lista enlazada"<<endl;
+						cout<< "d)Grafo"<<endl;
 						cin>>respuesta;
 						
-						if(respuesta=='a')
+						if(respuesta=='b')
+							{
+						  		cout<<"la respuesta es correcta"<<endl;
+						  		contap=contap+1;
+					    	}
+					    else 
+					    	{
+					    		cout<<"la respuesta es incorrecta"<<endl;
+					    		contan=contan-1;
+							}
+						cout<< "38-¿Cuál de las siguientes opciones describe mejor la función de una biblioteca en el desarrollo de software?"<<endl;
+						cout<< "a)Define una estructura de datos"<<endl;
+						cout<< "b)Agrupa un conjunto de instrucciones para realizar una tarea específica"<<endl;
+						cout<< "c)Almacena un valor que puede cambiar durante la ejecución del programa."<<endl;
+						cout<< "d)Proporciona funcionalidades predefinidas para su reutilización en diferentes programas"<<endl;
+						cin>>respuesta;
+						
+						if(respuesta=='d')
+							{
+						  		cout<<"la respuesta es correcta"<<endl;
+						  		contap=contap+1;
+					    	}
+					    else 
+					    	{
+					    		cout<<"la respuesta es incorrecta"<<endl;
+					    		contan=contan-1;
+							}
+						cout<< "39-¿Qué lenguaje de programación se utiliza comúnmente en el desarrollo de aplicaciones de scripting del lado del cliente en páginas web?"<<endl;
+						cout<< "a)PHP"<<endl;
+						cout<< "b)JavaScript"<<endl;
+						cout<< "c)Python"<<endl;
+						cout<< "d)Ruby"<<endl;
+						cin>>respuesta;
+						
+						if(respuesta=='b')
 							{
 						  		cout<<"la respuesta es correcta"<<endl;
 						  		contap=contap+1;
@@ -682,10 +684,10 @@ main()
 					    		cout<<"la respuesta es incorrecta"<<endl;
 					    		contan=contan-1;
 							}			
-						cout<< "10-¿que es un numero binario?"<<endl;
-						cout<< "a)una interpretacion de textos transformada en 1-0"<<endl;
-						cout<< "b)son numeros  que representan constantes positivos y negativos"<<endl;
-						cout<< "c)son un arreglo de dos caracteres, 1 y 0"<<endl;
+						cout<< "40-¿Qué tipo de error se produce cuando un programa intenta utilizar una variable que no ha sido inicializada?"<<endl;
+						cout<< "a)Error de lógica"<<endl;
+						cout<< "b)Error de sintaxis"<<endl;
+						cout<< "c)Error de compilación"<<endl;
 						cout<< "d)son el idioma del internet"<<endl;
 						cin>>respuesta;
 						
@@ -698,7 +700,7 @@ main()
 					    	{
 					    		cout<<"la respuesta es incorrecta"<<endl;
 					    		contan=contan-1;
-							}	
+							} 	
 			break;		
 			case 5:
 					cout<<"CONSTRUIR LA BASE DE DATOS "<<endl; 
